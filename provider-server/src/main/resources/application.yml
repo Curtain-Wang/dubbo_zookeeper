@@ -1,0 +1,9 @@
+server:
+  port: 8001
+dubbo:
+  application:
+    name: provider-server
+  registry:
+    address: zookeeper://47.99.73.234:2181
+  scan:
+    base-packages: com.curtain.service
